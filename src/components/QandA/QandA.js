@@ -74,10 +74,10 @@ export default function QandA() {
 										</p>
 										<Col id="snippet">
 											<Row># 301 Permanent Redirect</Row>
-											<Row>/netlify/* https://www.google.com/search?q=:splat 301</Row>
+											<Row>/netlify/:query  https://www.google.com/search?q=:query  301</Row>
 
 											<Row># 200 Proxy Redirect</Row>
-											<Row>/netlify/* https://www.google.com/search?q=:splat 200</Row>
+											<Row>/netlify/*  /index.html  200</Row>
 										</Col>
 							</Accordion.Body>
           				</Accordion.Item>
