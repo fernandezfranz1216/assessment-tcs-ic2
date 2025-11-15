@@ -1,0 +1,31 @@
+#myAccordion .accordion-button {
+  background-color: transparent;
+  border: transparent;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-btn-focus-border-color: transparent;
+}
+
+#myAccordion .accordion-button:not(.collapsed) {
+  background-color: transparent;
+  border: transparent;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-btn-focus-border-color: transparent;
+}
+
+#myAccordion .accordion-button:hover {
+  background-color: transparent;
+  border: transparent;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-btn-focus-border-color: transparent;
+}
+
+#list {
+  font-family: 'VT323', monospace;
+  font-size: 16px;
+  color: #000;
+}
+
+#list:hover {
+  color: #0066cc;
+  text-decoration: underline;
+}
