@@ -1,16 +1,17 @@
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
-import NavBar from './components/NavBar/NavBar';
-import IntroSection from './components/IntroSection/IntroSection';
-import QandA from './components/QandA/QandA';
+import Home from './pages/Home';
+
 
 function App() {
   return (
     <Router>
-      <NavBar />
-      <IntroSection />
-      <QandA />
+      <Routes>
+        <Route path="/me" element={<Home />} />
+        <Route path="/q-and-a" element={<Home />} />
+        <Route path="/examples" element={<Home />} />
+      </Routes>
     </Router>
   );
 }

@@ -29,3 +29,9 @@
   color: #0066cc;
   text-decoration: underline;
 }
+
+#snippet {
+  background-color: #f1f5f9;
+  padding: 2rem;
+  border-radius: 10px;
+}
