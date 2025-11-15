@@ -15,6 +15,9 @@ export default function Home() {
 			<div id="q-and-a">
 				<QandA />
 			</div>
+			<div className="footer text-center" id="footer">
+				<p>Created by FRANZ FERNANDEZ | Assessment for Technical Customer Support - IC2 position</p>
+			</div>
 		</>
 	)
 }

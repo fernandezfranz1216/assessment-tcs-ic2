@@ -83,23 +83,16 @@ export default function QandA() {
           				</Accordion.Item>
           				<Accordion.Item eventKey="7" className="accordionItem p-4 my-2" id="myAccordion">
 							<Accordion.Header>Question #8</Accordion.Header>
-							<Accordion.Body><h5>Please attempt to deploy a function on our service. This need not be complicated. It could be "Hello World". Note that failure to deploy is not failing the exercise! Whether you have trouble or not, please describe what you experienced and how you attempted to troubleshoot any issues you encountered.</h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute iruree dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.</Accordion.Body>
+							<Accordion.Body><h5>Please attempt to deploy a function on our service. This need not be complicated. It could be "Hello World". Note that failure to deploy is not failing the exercise! Whether you have trouble or not, please describe what you experienced and how you attempted to troubleshoot any issues you encountered.</h5>
+							- I followed the guide for Serverless Functions in the netlify website. First step according to the guide is to create a functions directory which i did. I then created a hello.mjs file. Deployed my project, tested it by adding /.netlify/functions/hello in my domain name and it successfully retured a "Hello, world!" message.
+
+							</Accordion.Body>
           				</Accordion.Item>
           				<Accordion.Item eventKey="8" className="accordionItem p-4 my-2" id="myAccordion">
 							<Accordion.Header>Question #9</Accordion.Header>
-							<Accordion.Body><h5>We understand you don't know anything about our internal procedures at this stage, but we want you to explain at a high level how you'd react to this situation: You receive a report of a severe security issue on www.netlify.com. You can't immediately confirm the report, so what steps might you take to investigate or substantiate the report? What might you say to the reporter, even though we haven't confirmed their assertion yet, that will instill confidence that our business is very concerned about security? You believe there is a reasonable chance the report is correct and the problem is very large and impactful. How might you escalate?</h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute iruree dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.</Accordion.Body>
+							<Accordion.Body><h5>We understand you don't know anything about our internal procedures at this stage, but we want you to explain at a high level how you'd react to this situation: You receive a report of a severe security issue on www.netlify.com. You can't immediately confirm the report, so what steps might you take to investigate or substantiate the report? What might you say to the reporter, even though we haven't confirmed their assertion yet, that will instill confidence that our business is very concerned about security? You believe there is a reasonable chance the report is correct and the problem is very large and impactful. How might you escalate?</h5>
+								- I would document the report in full detail first. I’d ask the reporter for important information such as the time and date it happened, the affected URLs, any proof, and the steps to reproduce the issue. Then I’d try to recreate the error using their details to confirm the problem. Once confirmed, I would thank the reporter and let them know that everything has been properly documented. I’d assure them that the company will work on the issue as quickly as possible. After that, I would notify the security team about the incident and create the incident ticket. 
+							</Accordion.Body>
           				</Accordion.Item>
           			</Accordion>
 				</Col>
