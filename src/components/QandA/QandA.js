@@ -28,7 +28,7 @@ export default function QandA() {
           				<Accordion.Item eventKey="2" className="accordionItem p-4 my-2" id="myAccordion">
 							<Accordion.Header>Question #3</Accordion.Header>
 							<Accordion.Body>
-							<h5>Rank your 5 favorite and 5 least favorite activities from this <a href=" https://gist.github.com/laurajodz/592402a6336410377dee1a744af846ab" target="_blank" id="list">LIST</a>.</h5>
+							<h5>Rank your 5 favorite and 5 least favorite activities from this <a href=" https://gist.github.com/laurajodz/592402a6336410377dee1a744af846ab" target="_blank" id="list" rel="noopener noreferrer">LIST</a>.</h5>
 							<Row>
 								<Col>
 									<h5>Top 5 Favorites</h5>
@@ -52,7 +52,7 @@ export default function QandA() {
           				<Accordion.Item eventKey="3" className="accordionItem p-4 my-2" id="myAccordion">
 							<Accordion.Header>Question #4</Accordion.Header>
 							<Accordion.Body><h5>Provide a link to documentation for a technical/developer-focused product, which you think are well done, and explain why you think they are well done.</h5>
-							- <a href="https://www.phind.com/blog/phind-2" id="list" target="_blank">Phind AI</a> is an AI assistant specifically made for technical people. It is very convenient because it supports features that are very helpful in coding such as IDE Integration, answers visualized using diagrams, cards, images, and other visual outputs, etc. It is also up-to-date, context aware and the solutions it provides can be verified to avoid wrong or useless snippets.
+							- <a href="https://www.phind.com/blog/phind-2" id="list" target="_blank" rel="noopener noreferrer">Phind AI</a> is an AI assistant specifically made for technical people. It is very convenient because it supports features that are very helpful in coding such as IDE Integration, answers visualized using diagrams, cards, images, and other visual outputs, etc. It is also up-to-date, context aware and the solutions it provides can be verified to avoid wrong or useless snippets.
 							</Accordion.Body>
           				</Accordion.Item>
           				<Accordion.Item eventKey="4" className="accordionItem p-4 my-2" id="myAccordion">
@@ -64,7 +64,7 @@ export default function QandA() {
           				<Accordion.Item eventKey="5" className="accordionItem p-4 my-2" id="myAccordion">
 							<Accordion.Header>Question #6</Accordion.Header>
 							<Accordion.Body><h5>A customer writes in to Support saying simply that their “site won’t build”. You have access to their build logs, and there you see this error: Build failed due to a user error: Build script returned non-zero exit code: 2. You have no more information than this and the site’s source repository is private so you cannot test the build yourself. How would you troubleshoot this issue? What steps would you take? Also, please compose your best customer-facing first response.</h5>
-							- From what I've learned through research, these kind of errors usually appear when there's a problem with the user's configuration. It can sometimes be missing files or modules, incorrect commands, etc. First of all, I would reassure the customer that these type of errors can be resolved by following simple troubleshooting procedures. This response can build trust and it is a gentle way to ask for their cooperation. Then I would ask them to check if a certain command failed in their build script. I would also ask them to double check their files, check their spellings and punctuations and ask them to follow the instructions from the platform again but this time with me as their guide.  
+							- From what I've learned through research, these kind of errors usually appear when there's a problem with the user's configuration. It can sometimes be missing files or modules, incorrect commands, etc. First of all, I would ask them if they want to try the AI feature that provides diagnosis on the error that occurs when building. If they me to assist instead, then I would reassure the customer that these type of errors can be resolved by following simple troubleshooting procedures. This response can build trust and it is a gentle way to ask for their cooperation. Then I would ask them to check if a certain command failed in their build script. I would also ask them to double check their files, check their spellings and punctuations and ask them to follow the instructions from the platform again but this time with me as their guide.  
 							</Accordion.Body>
           				</Accordion.Item>
           				<Accordion.Item eventKey="6" className="accordionItem p-4 my-2" id="myAccordion">

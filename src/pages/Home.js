@@ -1,5 +1,4 @@
-import { NavLink } from 'react-router-dom';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 import IntroSection from '../components/IntroSection/IntroSection';
 import QandA from '../components/QandA/QandA';
 import './Home.css';
