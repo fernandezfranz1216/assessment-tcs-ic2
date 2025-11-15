@@ -7,11 +7,7 @@ import Home from './pages/Home';
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/me" element={<Home />} />
-        <Route path="/q-and-a" element={<Home />} />
-        <Route path="/examples" element={<Home />} />
-      </Routes>
+      <Home />
     </Router>
   );
 }
